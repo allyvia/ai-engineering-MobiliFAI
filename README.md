@@ -1,5 +1,8 @@
 # MobiliFAI
- 
+<p align="center">
+  <img src="MobiliFAI Logo.png" alt="Logo" width="300">
+</p>
+
 > A 24/7 AI assistant that answers FAI students' outbound study abroad and exchange questions, with citations from official documents.
  
 ## Problem Statement
