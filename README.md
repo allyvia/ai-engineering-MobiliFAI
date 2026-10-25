@@ -38,3 +38,4 @@ FAI students planning to study abroad or join an exchange programme.
 | Week | Focus | Deliverable | Status |
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ☑ |
+| W2 | Requirements + architecture | Requirements specification + evaluation criteria + V1 architecture diagram |	☑ |
