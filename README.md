@@ -39,3 +39,11 @@ FAI students planning to study abroad or join an exchange programme.
 |------|-------|-------------|--------|
 | W1 | System map + project scope | README + docs | ☑ |
 | W2 | Requirements + architecture | Requirements specification + evaluation criteria + V1 architecture diagram |	☑ |
+| W3 | Data engineering: inventory, V1 data pipeline, lineage | `docs/week3_data_inventory.md`, `docs/week3_pipeline_decisions.md`, `docs/week3_pipeline_diagram.png`, `notebooks/week3_pipeline.ipynb`, `data/week3_manifest.json`, `data/pipeline_v1/documents/` | ☑ |
+
+## Week 3 — V1 Data Pipeline
+- Notebook: `notebooks/week3_pipeline.ipynb` (Colab; Pathway A: PDF/TXT)
+- Docs: `docs/week3_data_inventory.md`, `docs/week3_pipeline_diagram.png`, `docs/week3_pipeline_decisions.md`
+- Prepared data: `data/processed/` (prepared_text.jsonl, source_profile.json) · lineage: `data/week3_manifest.json`
+- Pipeline run: `data/pipeline_v1/documents/` (+ `pipeline_manifest.json`)
+- Result: 7 sources → 511 page-traceable chunks; lineage PASS; repeatability PASS
