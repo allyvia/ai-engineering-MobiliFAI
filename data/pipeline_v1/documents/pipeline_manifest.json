@@ -1,0 +1,165 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-15T17:19:55.070939+00:00",
+  "data_type": "documents",
+  "configuration": {
+    "method": "page-aware",
+    "chunk_size": 800,
+    "signals": "heuristic regex v1"
+  },
+  "processing_method": "page-aware-char-800 + heuristic signal tagging",
+  "sources": [
+    {
+      "path": "pdf/FAI_Academic_Handbook_2025_2026.pdf",
+      "sha256": "44a146367d897d058360fd241ff96a7b680247d0fa93003bf7c0020b27c1d261"
+    },
+    {
+      "path": "pdf/UTM_International_Outbound_Pre-Departure_Briefing.pdf",
+      "sha256": "43ae6143643c1f679d1e8f6895f3c18ecb21b7ebd9bf8dbcf9f97197102b4a16"
+    },
+    {
+      "path": "pdf/UTM_Academic_Calendar_20262027.pdf",
+      "sha256": "991821afb6fa5497a80853654e05b7d86ca65a69e4267a8a907d229ad3c1dc1c"
+    },
+    {
+      "path": "pdf/UTM_Academic_Rules_and_Regulations.pdf",
+      "sha256": "89eb1fb64a9983080ee281729b9ebcb922b4971e9202139768be3d1b0912aede"
+    },
+    {
+      "path": "web/utm_mobility_portal.txt",
+      "sha256": "b65ed36a6f237f59a8ebc294a30a19e69594fee759de7404970df909025a30a0"
+    },
+    {
+      "path": "web/jasso_student_exchange_support.txt",
+      "sha256": "aecdc6d9ffe7be089e9c7c1d8fc93001524be72cd0b4b87ebd7768cd4a487a4b"
+    },
+    {
+      "path": "web/shisu_china_link_2026.txt",
+      "sha256": "b2b2c996a71af9443505016fa5a4b6d8f133a72747af740f05e0cf58b9ca0bad"
+    }
+  ],
+  "outputs": [
+    "data/pipeline_v1/documents/prepared_text.jsonl",
+    "data/pipeline_v1/documents/source_profile.json"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "pdf/FAI_Academic_Handbook_2025_2026.pdf",
+      "source_id": "S01",
+      "chunks": 245,
+      "outputs": [
+        "data/pipeline_v1/documents/prepared_text.jsonl",
+        "data/pipeline_v1/documents/source_profile.json"
+      ]
+    },
+    {
+      "source": "pdf/UTM_International_Outbound_Pre-Departure_Briefing.pdf",
+      "source_id": "S02",
+      "chunks": 13,
+      "outputs": [
+        "data/pipeline_v1/documents/prepared_text.jsonl",
+        "data/pipeline_v1/documents/source_profile.json"
+      ]
+    },
+    {
+      "source": "pdf/UTM_Academic_Calendar_20262027.pdf",
+      "source_id": "S03",
+      "chunks": 11,
+      "outputs": [
+        "data/pipeline_v1/documents/prepared_text.jsonl",
+        "data/pipeline_v1/documents/source_profile.json"
+      ]
+    },
+    {
+      "source": "pdf/UTM_Academic_Rules_and_Regulations.pdf",
+      "source_id": "S04",
+      "chunks": 226,
+      "outputs": [
+        "data/pipeline_v1/documents/prepared_text.jsonl",
+        "data/pipeline_v1/documents/source_profile.json"
+      ]
+    },
+    {
+      "source": "web/utm_mobility_portal.txt",
+      "source_id": "S05",
+      "chunks": 8,
+      "outputs": [
+        "data/pipeline_v1/documents/prepared_text.jsonl",
+        "data/pipeline_v1/documents/source_profile.json"
+      ]
+    },
+    {
+      "source": "web/jasso_student_exchange_support.txt",
+      "source_id": "S06",
+      "chunks": 3,
+      "outputs": [
+        "data/pipeline_v1/documents/prepared_text.jsonl",
+        "data/pipeline_v1/documents/source_profile.json"
+      ]
+    },
+    {
+      "source": "web/shisu_china_link_2026.txt",
+      "source_id": "S07",
+      "chunks": 5,
+      "outputs": [
+        "data/pipeline_v1/documents/prepared_text.jsonl",
+        "data/pipeline_v1/documents/source_profile.json"
+      ]
+    }
+  ],
+  "inspection": {
+    "pdf/FAI_Academic_Handbook_2025_2026.pdf": {
+      "pages": 63,
+      "chars": 170996,
+      "empty_pages": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    "pdf/UTM_International_Outbound_Pre-Departure_Briefing.pdf": {
+      "pages": 11,
+      "chars": 5447,
+      "empty_pages": []
+    },
+    "pdf/UTM_Academic_Calendar_20262027.pdf": {
+      "pages": 2,
+      "chars": 8362,
+      "empty_pages": []
+    },
+    "pdf/UTM_Academic_Rules_and_Regulations.pdf": {
+      "pages": 84,
+      "chars": 106047,
+      "empty_pages": []
+    },
+    "web/utm_mobility_portal.txt": {
+      "pages": 1,
+      "chars": 5491,
+      "empty_pages": []
+    },
+    "web/jasso_student_exchange_support.txt": {
+      "pages": 1,
+      "chars": 2116,
+      "empty_pages": []
+    },
+    "web/shisu_china_link_2026.txt": {
+      "pages": 1,
+      "chars": 2977,
+      "empty_pages": []
+    }
+  },
+  "validation": {
+    "output_count": 2,
+    "output_sha256": [
+      "5853c405de09f6c1fbcafe500e40fbe4c0e760b7d78acd08e3e2c89abe56c366",
+      "387a0892d8db3733ec32f599fb0252fe6e7e0ba0172453ba82eec9385a6162e5"
+    ],
+    "output_bytes": [
+      545778,
+      2370
+    ]
+  },
+  "source_version": "see source_version in data/week3_manifest.json",
+  "access_rights": "Not verified - check before sharing"
+}

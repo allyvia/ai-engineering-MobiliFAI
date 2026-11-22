@@ -1,0 +1,91 @@
+[
+  {
+    "source_id": "S01",
+    "title": "FAI Academic Handbook 2025-2026",
+    "valid_for": "2025/2026 session",
+    "chunks": 245,
+    "empty_pages": [
+      53,
+      54,
+      55,
+      56
+    ],
+    "max_year_in_dates": 2026,
+    "declared_year": 2025,
+    "freshness_basis": "dates in text",
+    "possibly_outdated": false,
+    "language": "en"
+  },
+  {
+    "source_id": "S02",
+    "title": "UTM Outbound Mobility Pre-Departure Briefing",
+    "valid_for": "undated (uploaded 2023/05)",
+    "chunks": 13,
+    "empty_pages": [],
+    "max_year_in_dates": null,
+    "declared_year": 2023,
+    "freshness_basis": "catalogue (no dates found)",
+    "possibly_outdated": true,
+    "language": "en"
+  },
+  {
+    "source_id": "S03",
+    "title": "UTM Academic Calendar 2026/2027",
+    "valid_for": "2026/2027 session",
+    "chunks": 11,
+    "empty_pages": [],
+    "max_year_in_dates": 2027,
+    "declared_year": 2026,
+    "freshness_basis": "dates in text",
+    "possibly_outdated": false,
+    "language": "en+ms"
+  },
+  {
+    "source_id": "S04",
+    "title": "Peraturan Akademik Program Sarjana Muda (Edisi Keenam Belas, 2022)",
+    "valid_for": "16th edition, 2022",
+    "chunks": 226,
+    "empty_pages": [],
+    "max_year_in_dates": null,
+    "declared_year": 2022,
+    "freshness_basis": "catalogue (no dates found)",
+    "possibly_outdated": true,
+    "language": "ms"
+  },
+  {
+    "source_id": "S05",
+    "title": "UTM Mobility Portal",
+    "valid_for": "snapshot 2026-11-16; listings are 2022",
+    "chunks": 8,
+    "empty_pages": [],
+    "max_year_in_dates": 2023,
+    "declared_year": 2022,
+    "freshness_basis": "dates in text",
+    "possibly_outdated": true,
+    "language": "en"
+  },
+  {
+    "source_id": "S06",
+    "title": "JASSO Student Exchange Support Program",
+    "valid_for": "page says 'as of Jan 31, 2024'",
+    "chunks": 3,
+    "empty_pages": [],
+    "max_year_in_dates": null,
+    "declared_year": 2024,
+    "freshness_basis": "catalogue (no dates found)",
+    "possibly_outdated": true,
+    "language": "en"
+  },
+  {
+    "source_id": "S07",
+    "title": "SISU China Link Scholarship 2026 Application Guide",
+    "valid_for": "page dated 2026-01-28",
+    "chunks": 5,
+    "empty_pages": [],
+    "max_year_in_dates": 2027,
+    "declared_year": 2026,
+    "freshness_basis": "dates in text",
+    "possibly_outdated": false,
+    "language": "en"
+  }
+]
